@@ -96,6 +96,6 @@ data/
 # Environment
 venv/
 *.gdoc
-*.gsheets
+*.gsheet
 .git/
 idea/

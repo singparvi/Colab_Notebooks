@@ -138,6 +138,13 @@ video recording - https://www.youtube.com/watch?v=C4rCcb8wfSs
     export GIT_CURL_VERBOSE=1   # All three lines above see versbose why things are failing
    
     brew install git-sizer # Filter bigger files
+
+    To remove folder/directory only from git repository and not from the local try 3 simple commands.
+    Steps to remove directory
+    
+    git rm -r --cached FolderName
+    git commit -m "Removed folder from repository"
+    git push origin master
     
 
 
